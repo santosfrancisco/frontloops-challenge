@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="payment">
+      <div class="payment__steps">
+        <div class="payment__step payment__step--active"></div>
+        <div class="payment__step"></div>
+        <div class="payment__step"></div>
+      </div>
+      <h1 class="payment__title">payment method</h1>
+      <div class="payment__options">
+        <div class="payment-option">
+          <div class="payment-option__info">
+            <img src="img/visa.svg" alt="" class="payment-option__logo">
+            <span class="payment-option__name">visa</span>
+          </div>
+          <img src="img/check.svg" alt="" class="payment-option__check">
+        </div>
+        <div class="payment-option">
+          <div class="payment-option__info">
+            <img src="img/mastercard.svg" alt="" class="payment-option__logo">
+            <span class="payment-option__name payment-option__name--active">mastercard</span>
+          </div>
+          <img src="img/check.svg" alt="" class="payment-option__check payment-option__check--active">
+        </div>
+        <div class="payment-option">
+          <div class="payment-option__info">
+            <img src="img/maestro.svg" alt="" class="payment-option__logo">
+            <span class="payment-option__name">maestro</span>
+          </div>
+          <img src="img/check.svg" alt="" class="payment-option__check">
+        </div>
+      </div>
+      <button class="payment-submit__button">next step <img class="payment-submit__icon" src="img/arrow.svg" alt=""></button>
+    </div>
+  </div>
+</body>
+
+</html>
