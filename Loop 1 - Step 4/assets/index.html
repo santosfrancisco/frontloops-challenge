@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 4</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="chat">
+    <div class="chat__title-bar">
+      <span class="chat__people-name">
+        <div class="chat__status"></div>
+        Mark Zuckerberg
+      </span>
+      <a href="#" class="close-button">
+        <img src="img/close.svg"/>
+      </a>
+    </div>
+    <div class="chat__content">
+      <hr class="separator" />
+      <span class="separator__text">today</span>
+      <div>
+        <span class="message-sent__time">10:53</span>
+        <div class="message-sent">
+          <div class="message-sent__arrow"></div>
+          <div class="message-sent__balloon">
+            <div class="message-sent__content">
+              Hi, Mark! I made a new design for Messenger App.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="message-received__time">10:57</span>
+        <div class="message-received">
+          <div class="message-received__balloon">
+            <div class="message-received__content">
+              Yo! Send ir to my assistant and we'll review it during the year.
+            </div>
+          </div>
+          <div class="message-received__arrow"></div>
+        </div>
+      </div>
+
+      <div>
+        <span class="message-sent__time">11:03</span>
+        <div class="message-sent">
+          <div class="message-sent__arrow"></div>
+          <div class="message-sent__balloon">
+            <div class="message-sent__content">
+              But Mark...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="message-received__time">10:57</span>
+        <div class="message-received">
+          <div class="message-received__balloon--blocked">
+            <div class="message-received__content">
+              You were blocked by the user.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="separator" />
+    </div>
+    <div class="chat__message">
+      <input type="text" placeholder="Enter your message..." class="message__input">
+        <button class="message__send-button">send</button>
+    </div>
+  </div>
+</body>
+
+</html>
