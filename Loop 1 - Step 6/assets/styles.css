@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  background-color: #4d515d;
+}
+
+.main {
+  border-radius: 5px;
+  width: 1040px;
+  height: 620px;
+  margin: 30px auto;
+  display: flex;
+  box-shadow: 0 4px 20px 3px rgba(0, 0, 0, .4);
+}
+
+.main__content {
+  border-radius:5px 0 0 5px;
+  background-color: #fff;
+  width: 55%;
+  padding: 60px;
+}
+
+.main__title {
+  font-weight: 300;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main__text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #aaaaaa;
+  margin-bottom: 60px
+}
+
+.social-signup {
+  margin-bottom: 80px;
+}
+
+.social-signup__button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #eef0f3;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: box-shadow .3s, border-color .3s;
+}
+
+.social-signup__button:hover {
+  border-color: #fff;
+  box-shadow: 0 4px 20px 1px rgba(0, 0, 0, .1);
+}
+
+.social-signup__icon{
+  width: 20px;
+  display: flex;
+  padding: 10px;
+}
+
+.social-signup__button-text {
+  text-transform: uppercase;
+  color: #8b8b8c;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.separator {
+  border-top: none;
+  border-color: #eef0f3;
+}
+
+.email-signup {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.email-signup__text {
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+}
+
+.email-signup__link {
+  text-decoration: none;
+  color: #928b8c;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.email-signup__link:hover {
+  color: #000;
+}
+
+.main__side {
+  width: 40%;
+}
+
+.main__side-image {
+  border-radius: 0 5px 5px 0;
+  width: 100%;
+  height: 100%;
+}
